@@ -51,8 +51,8 @@ const Menu: React.FC = () => {
           </Link>
         </MenuItem>
         <MenuItem>
-          <Link href="/posts" passHref>
-            Posts
+          <Link href="/projects" passHref>
+            Projects
           </Link>
         </MenuItem>
       </MenuList>
