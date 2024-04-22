@@ -25,8 +25,14 @@ const Content = styled.p`
   padding: 20px;
 `;
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+`;
+
 const HomePage: React.FC = () => (
-  <>
+  <Container>
     <HeroSection>
       <Heading>Welcome to Our Design Agency</Heading>
     </HeroSection>
@@ -34,7 +40,7 @@ const HomePage: React.FC = () => (
       This is the homepage content. Explore our projects and learn more about
       our services.
     </Content>
-  </>
+  </Container>
 );
 
 export default HomePage;

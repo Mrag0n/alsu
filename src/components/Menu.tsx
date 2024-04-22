@@ -36,24 +36,16 @@ const Menu: React.FC = () => {
     <Nav>
       <MenuList>
         <MenuItem>
-          <Link href="/" passHref>
-            Home
-          </Link>
+          <MenuLink href="/">Services</MenuLink>
         </MenuItem>
         <MenuItem>
-          <Link href="/about" passHref>
-            About
-          </Link>
+          <MenuLink href="/projects">Portfolio</MenuLink>
         </MenuItem>
         <MenuItem>
-          <Link href="/portfolio" passHref>
-            Portfolio
-          </Link>
+          <MenuLink href="/about">About us</MenuLink>
         </MenuItem>
         <MenuItem>
-          <Link href="/projects" passHref>
-            Projects
-          </Link>
+          <MenuLink href="/contacts">Contacts</MenuLink>
         </MenuItem>
       </MenuList>
     </Nav>

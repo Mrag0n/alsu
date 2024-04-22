@@ -23,7 +23,6 @@ const Title = styled.h1`
 
 const PageContainer = styled.div`
   padding: 20px;
-  background-color: #f0f0f0;
   display: flex;
   flex-wrap: wrap; // Allow cards to wrap
   justify-content: center; // Center cards horizontally
